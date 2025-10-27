@@ -25,12 +25,15 @@ def reset_world():
     # grass = Grass()
     # game_world.add_object(grass)    # 게임 월드에 객체 추가
 
+    # 사이에 낄 소년과 공
     boy = Boy()
     game_world.add_object(boy, 1)  # 게임 월드에 객체 추가
 
+    # 가장 뒤에 올 잔디
     grass1 = Grass()
     game_world.add_object(grass1, 2)    # 게임 월드에 객체 추가
 
+    # 가장 앞에 올 잔디
     grass2 = Grass(80)
     game_world.add_object(grass2, 0)  # 게임 월드에 객체 추가
 
