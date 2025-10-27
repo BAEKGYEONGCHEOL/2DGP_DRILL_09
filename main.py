@@ -31,7 +31,8 @@ def reset_world():
     grass1 = Grass()
     game_world.add_object(grass1, 2)    # 게임 월드에 객체 추가
 
-
+    grass2 = Grass(80)
+    game_world.add_object(grass2, 0)  # 게임 월드에 객체 추가
 
 
 def update_world():
